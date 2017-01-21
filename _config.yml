@@ -12,7 +12,7 @@ timezone:
 # custom Site settings
 # more detail check out docs
 SEOTitle: Chaohao's blog 
-header-img: source/image/star1.jpg
+header-img: ../image/star1.jpg
 email: thinkshidifferent@gmail.com
 description: "施朝浩的个人博客"
 keyword: # seo key words
