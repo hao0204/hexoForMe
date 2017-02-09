@@ -3,75 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chaohao # your blog title name
-subtitle:  
-author: Shi Chaohao # 作者
-language: 
-timezone: 
-
-# custom Site settings
-# more detail check out docs
-SEOTitle: Chaohao's blog 
-header-img: ../image/star1.jpg
-email: thinkshidifferent@gmail.com
-description: "施朝浩的个人博客"
-keyword: # seo key words
-
-favicon: # your favicon png
-# custom end
-
+title: Hao
+subtitle: 嗯哼～
+description: stay hungry, stay foolish
+author: 浩
+language: zh-Hans
+timezone:
+avatar: /images/user1.png
+duoshuo_shortname: chaohao
+google_analytics: UA-90667458-1
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: http://haojen.github.io
-# root: /
-# permalink: :year/:month/:day/:title/
-# permalink_defaults:
-
-# SNS settings
-# RSS:
-weibo_username: 3036687007/profile?topnav=1&wvr=6
-zhihu_username: shi-zhao-hao
-github_username: shichaohao
-twitter_username: 
-facebook_username:  
-linkedin_username: chaohao-shi-285703106?trk=nav_responsive_tab_profile_pic
-
-# Build settings
-anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
-
-
-# Disqus settings 
-disqus_username: 
-
-# Duoshuo settings
-duoshuo_username: sch # 你的多说帐号
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id:
-# Google Analytics
-ga_track_id: UA-90667458-1            # Format: UA-xxxxxx-xx
-ga_domain: www.shichaohao.com
-
-# Sidebar settings
-sidebar-about-description: stay hungry, stay foolish # 个人描述
-sidebar-avatar: ../../../../image/user1.png    # use absolute URL
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-# friends
-friends: [
-  {
-    title: "宋博",
-    href: "http://www.bo-song.com"
-  }
-]
+url: http://yoursite.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 
 # Directory
 source_dir: source
@@ -90,12 +36,12 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace:
 
@@ -113,50 +59,15 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 8
+per_page: 10
 pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-
-markdown:
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-emoji
-
 ## Themes: https://hexo.io/themes/
-theme: Anisina
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
-  branch: 
-
-
-# img CDN path
-cdn-url: source/image/ # 你的CDN地址
-
-# Qiniu imageView2 API
-# More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
-# clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
-# clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
-# clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
-
-# post default images
-post-default-img: ../../../../image/star1.jpg #博文默认的图片
-post-default-img-mobile: ../image/star1.jpg #移动端显示的图片
-
-# search api , set your custom key
-swiftype_key: 
-
-
-# archive page title 
-archive:
-    title: archives
-    description: 可以根据归档日期检索所有文件
+  type:
