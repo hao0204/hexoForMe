@@ -49,6 +49,7 @@ Storm提供一套Java API，同时可以很好的支持其它编程语言。Spar
 #### 批处理框架集成
 
 Spark Streaming有一个好的特性是它运行在Spark上。因此，你可以使用相同(或者非常近似)的代码去实现批处理操作，或者在Spark Streaming上对Spark进行交互式的查询。这减少了编写用于处理流数据和历史数据所需的单独的代码的需求。
+
 ![Storm vs Spark Streaming: implementation and programming API.](/images/Storm vs Spark Streaming-2.png)
 
 #### 小结
