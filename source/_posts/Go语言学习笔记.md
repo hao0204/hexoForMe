@@ -8,8 +8,9 @@ categories: [技术]
 ### 更新记录
 时间 | 更新内容 
 --- | --- 
-2017-02-18 | 作为初学者，想写一些自己容易忘记的内容，供以后参考。已编写类型零值内容。
 2017-02-19 | 增加格式化输出的内容
+2017-02-18 | 作为初学者，想写一些自己容易忘记的内容，供以后参考。已编写类型零值内容。
+
 
 <!-- more -->
 
@@ -54,13 +55,13 @@ go 语言的格式符与C类似，但还是有所不同。
 
 类型| 格式符 | 备注
 --- | --- | --- 
-bool | %t
-int, int8 etc. | %d
-uint, uint8 etc. | %d, %#x if printed with %#v
-float32, complex64, etc. | %g
-string | %s
-chan | %p
-pointer | %p
+bool | %t |
+int, int8 etc. | %d |
+uint, uint8 etc. | %d, %#x if printed with %#v |
+float32, complex64, etc. | %g |
+string | %s |
+chan | %p |
+pointer | %p |
 
 **[布尔]**
 
@@ -106,4 +107,4 @@ pointer | %p
 
 格式符 | 作用 | 备注
 --- | --- | --- 
-%p | 基于十六进制，前缀 0x
+%p | 基于十六进制，前缀 0x |
