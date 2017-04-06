@@ -1,7 +1,8 @@
 ---
 title: golang单元测试介绍
 date: 2017-03-20 16:42:37
-tags:
+tags: [Go]
+categories: [技术]
 ---
 
 ### 内容简介
