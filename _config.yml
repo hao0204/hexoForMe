@@ -3,14 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hao
+title: FaceHo
 subtitle: 嗯哼～
 description: stay hungry, stay foolish
-author: 浩
+author: FaceHo
 language: zh-Hans
 timezone:
-avatar: /images/user1.png
-duoshuo_shortname: chaohao
+avatar: /images/user2.png
 google_analytics: UA-90667458-1
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
