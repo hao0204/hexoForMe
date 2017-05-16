@@ -30,7 +30,7 @@ Storm和Spark Streaming是分布式流处理的开源框架。但是，它们之
 
 另一方面，Spark Streaming只需要在批处理级别进行跟踪处理，因此即使发生节点故障等故障，也可以有效地保证每个小批量都能够被精确处理一次。 [实际上，Storm的Trident库也提供了精确处理一次机制。 但是，它依赖于事务来更新状态，这是更慢的，并且通常是由用户去实现。]
 
-![Storm vs Spark Streaming comparison.](/images/Storm vs Spark Streaming-1.png)
+![Storm vs Spark Streaming comparison.](/images/[翻译] Storm和Spark Streaming的横向比较/Storm vs Spark Streaming-1.png)
 
 #### 小结
 
@@ -50,7 +50,7 @@ Storm提供一套Java API，同时可以很好的支持其它编程语言。Spar
 
 Spark Streaming有一个好的特性是它运行在Spark上。因此，你可以使用相同(或者非常近似)的代码去实现批处理操作，或者在Spark Streaming上对Spark进行交互式的查询。这减少了编写用于处理流数据和历史数据所需的单独的代码的需求。
 
-![Storm vs Spark Streaming: implementation and programming API.](/images/Storm vs Spark Streaming-2.png)
+![Storm vs Spark Streaming: implementation and programming API.](/images/[翻译] Storm和Spark Streaming的横向比较/Storm vs Spark Streaming-2.png)
 
 #### 小结
 
@@ -72,7 +72,7 @@ Storm(仅支持这一个)是Hortonworks Hadoop data platform数据平台的流�
 
 两套系统均可以运行在它们自己的集群上，Storm仍然只能运行于Mesos上，Spark Streaming在YARN和Mesos上均可以运行。
 
-![Storm vs Spark Streaming: production and support.](/images/Storm vs Spark Streaming-3.png)
+![Storm vs Spark Streaming: production and support.](/images/[翻译] Storm和Spark Streaming的横向比较/Storm vs Spark Streaming-3.png)
 
 #### 小结
 

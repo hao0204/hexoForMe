@@ -48,12 +48,13 @@ categories: [技术]
 > 1. 一个已编译类仅描述一个类，而一个源文件中可以包含几个类。比如，一个源文件描述 了一个类，这个类又有一个内部类，那这个源文件会被编译为两个类文件：主类和内部类各一个文件。但是，主类文件中包含对其内部类的引用，定义了内部方法的内层类会包含引用，引向其封装的方法。
 > 
 > 2. 已编译类中当然不包含注释（`comment`），但可以包含类、字段、方法和代码属性，可以利用这些属性为相应元素关联更多信息。`Java 5` 中引入可用于同一目的的注释（`annotaion`）以后，属性已经变得没有什么用处了。
-> > 3. 编译类中不包含`package`和`import`部分，因此，所有类型名字都必须是完全限定的。
+> 
+> 3. 编译类中不包含`package`和`import`部分，因此，所有类型名字都必须是完全限定的。
 > 
 > 4. 另一个非常重要的结构性差异是已编译类中包含常量池（`constant pool`）部分。这个池是一个数组，包含了在类中出现的所有数值、字符串和类型常量。这些常量仅在常量池中定义一次，然后可以利用其索引，在类文件中的所有其他各部分进行引用。
 
 一个已编译类的整体规范如下图：
-![Overall structure of a compiled class(* means zero or more)](/images/asm use first step-1.png)
+![Overall structure of a compiled class(* means zero or more)](/images/使用ASM获取类定义/asm use first step-1.png)
 
 java 类型在已编译类和源文件类中的表示不同，后面几节来具体的解释。
  
@@ -313,7 +314,7 @@ Java类型 | 类型描述符
 	}
 
 最后结果:
-![Result](/images/asm use first step-2.png)
+![Result](/images/使用ASM获取类定义/asm use first step-2.png)
 
 #### 使用环境
 
