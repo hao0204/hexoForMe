@@ -1,7 +1,8 @@
 ---
 title: solidity 合约状态变量存储规则
 date: 2017-10-16 18:15:06
-tags:
+tags: [Go, 区块链]
+categories: [技术]
 ---
 
 ### 内容简介
@@ -372,7 +373,7 @@ f56c 7ffb 723d b564 2b3d 1ea0 a20d e5a1 4314 9f33 0f4c c5b4 ffbe cb57 031a cd6c 
 我们发现当发生地址冲突时，solidity采取是直接覆盖的方式。
 
 
-### 引用
+### 参考资料
 
 1. http://solidity.readthedocs.io/en/latest/structure-of-a-contract.html
 2. http://solidity.readthedocs.io/en/latest/types.html
