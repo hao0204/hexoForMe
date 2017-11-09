@@ -1,5 +1,5 @@
 ---
-title: solidity 合约状态变量存储规则
+title: solidity 合约状态变量存储规则分析
 date: 2017-10-16 18:15:06
 tags: [Go, 区块链]
 categories: [技术]
