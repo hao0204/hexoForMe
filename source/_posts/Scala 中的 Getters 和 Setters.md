@@ -1,7 +1,8 @@
 ---
 title: Scala 中的 Getters 和 Setters
 date: 2017-12-11 16:09:09
-tags:
+tags: [Scala]
+categories: [技术]
 ---
 
 ### 内容简介
